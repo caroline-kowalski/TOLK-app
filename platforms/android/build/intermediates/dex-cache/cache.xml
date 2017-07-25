@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="885bcb023a9b57ed31c305e2e94e31af909e21c5">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-identity-11.0.2_b733e1adc6e3781fa64af1608ec3acae00eb8b76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-v4-26.0.0-alpha1_e36ee3c3053e777a4f1f23fe4303b22adadc2b8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-basement-11.0.2_187b759b49851d0b676f70563835afe058dadc69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3d07dfddc7c3c7547fb953847589d586f1e2077">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-auth-base-11.0.2_9e94716a4587e6d91cbf7bb2433476b676c1cbf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-iid-11.0.2_f410480a9df3ab7013f32baa23711852fd91441d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-fragment-26.0.0-alpha1_1753ecac6f62ab6f0c10c214f57368a8790d37d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-core-utils-26.0.0-alpha1_0bd540400ad17a0cb93c2f5870d0c44645c4cdbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-media-compat-26.0.0-alpha1_1e7c8adf7d405efa523cc1524445ccd801190d04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-messaging-11.0.2_38d0eec5b88a5dc3463648edc1639a5b26feb79a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-base-11.0.2_5af2ccac64a135c9a7bd06d43331b6cc6e1b9e67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-common\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-common-11.0.2_7c189f23d6bec12542cddc7e4f550fcfecca6c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-analytics-11.0.2_8b14e8d02e1d0d73b247cccc3245429ee083c5c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-core-ui-26.0.0-alpha1_9f32912d969a2398948a1009f3710652cbeb0b18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69c20ef9399dbf427537ee0c9a5ebb29ed5aa6c6">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\CordovaLib-6.2.3-release_e7b6fcc51e56fb5eddc4893c97d25e2df579c718.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.android.support-support-compat-26.0.0-alpha1_845f5f50ff6a57dbd2f7ae78b7909341e480b7e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-tasks-11.0.2_763bd85818394d1312a415fd0409575ba49ec607.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\org.xwalk\xwalk_core_library\23.53.589.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="834071525d6d2707eb4c7f76b728d8cd14b17ae1">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\org.xwalk-xwalk_core_library-23.53.589.4_59d3a92d8eb2e56f81ad972057ff32cf06d68cb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\me.leolin-ShortcutBadger-1.1.4_782fe020f6843282d05d0a0c90e11e0a3b8fc7d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3560fc891bbecd8982acbace15ccead59c3fedd1">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.android.gms-play-services-auth-11.0.2_75d6bae1a26d992db4c68dbc6331176ba841e85b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\support-annotations-26.0.0-alpha1_7cfb0f5583fc83ae195f760a9eb03ff69eb89d50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba90907329e4ed429307d39490927b456838bf08">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-crash-11.0.2_45ece797d40f87f1e8dcbd796cda53d478f1e3b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-analytics-impl-11.0.2_809e12d8bb28979950ebf4915946c5e5311fd30e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-config\11.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0cccf7679b2764a849f90e2b581e2ec8d411679f">
+        <dex dex="C:\Users\acer\Music\TOLK-master\platforms\android\build\intermediates\pre-dexed\armv7\release\com.google.firebase-firebase-config-11.0.2_5cb399efb1fd2f9a92d208056a5d0eb0879ffd6d.jar" />
+    </item>
+
+</items>
