@@ -1,0 +1,17 @@
+
+<ion-header>
+  <ion-navbar>
+  <img id="logo" src="assets/images/logoblanc.png"/>
+    <ion-title>Mes notes</ion-title> 
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let item of items" tabIcon="ios-information"  (click)="viewItem(item)">{{item.title}}</ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,19 @@
+page-image-modal {
+
+    font-family: BentonSans-Light;
+  .scroll-content {
+    background-image: none;
+  }
+
+  .content {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.7) !important;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+  }
+}
