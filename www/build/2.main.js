@@ -5,14 +5,10 @@ webpackJsonp([2],{
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(7);
-throw new Error("Cannot find module \"./app.component\"");
-throw new Error("Cannot find module \"../pages/notes/notes\"");
-throw new Error("Cannot find module \"../pages/add-item/add-item\"");
-throw new Error("Cannot find module \"../pages/item-detail/item-detail\"");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__demarrage__ = __webpack_require__(373);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DemarragePageModule", function() { return DemarragePageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -22,39 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
-
-
-var AppModule = (function () {
-    function AppModule() {
+var DemarragePageModule = (function () {
+    function DemarragePageModule() {
     }
-    return AppModule;
+    return DemarragePageModule;
 }());
-AppModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["a" /* NgModule */])({
+DemarragePageModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["MyApp"],
-            __WEBPACK_IMPORTED_MODULE_4__pages_notes_notes__["NotesPage"],
-            __WEBPACK_IMPORTED_MODULE_5__pages_add_item_add_item__["AddItemPage"],
-            __WEBPACK_IMPORTED_MODULE_6__pages_item_detail_item_detail__["ItemDetailPage"]
+            __WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["MyApp"])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */]),
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
-        entryComponents: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["MyApp"],
-            __WEBPACK_IMPORTED_MODULE_4__pages_notes_notes__["NotesPage"],
-            __WEBPACK_IMPORTED_MODULE_5__pages_add_item_add_item__["AddItemPage"],
-            __WEBPACK_IMPORTED_MODULE_6__pages_item_detail_item_detail__["ItemDetailPage"]
-        ],
-        providers: [{ provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }]
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */]
+        ]
     })
-], AppModule);
+], DemarragePageModule);
 
-//# sourceMappingURL=item-detail.module.js.map
+//# sourceMappingURL=demarrage.module.js.map
 
 /***/ })
 

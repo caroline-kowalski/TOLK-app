@@ -4,6 +4,8 @@ import { IonicPage, NavController, NavParams, App } from 'ionic-angular';
 import { MessagesPage } from '../messages/messages';
 import { HomePage } from '../home/home';
 import { NotesPage } from '../notes/notes';
+
+import { DemarragePage } from '../demarrage/demarrage';
 /**
  * Generated class for the BienvenuePage page.
  *
@@ -22,6 +24,8 @@ export class BienvenuePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BienvenuePage');
+
+   this.app.getRootNav().push(DemarragePage);
   }
 
   PageChat(){

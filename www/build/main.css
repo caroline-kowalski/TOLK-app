@@ -54477,6 +54477,23 @@ page-demarrage {
   font-family: BentonSans-Light;
 }
 
+page-demarrage h3, page-demarrage h1 {
+  text-align: center;
+}
+
+page-demarrage #champs {
+  margin-top: 10%;
+}
+
+page-demarrage #milieu1 {
+  margin-top: 25%;
+  margin-bottom: -15%;
+}
+
+page-demarrage #milieu2 {
+  margin-top: 20%;
+}
+
 page-friends {
   font-family: BentonSans-Light;
 }

@@ -7,22 +7,33 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Bienvenue chez TOLK</ion-title>
+    <ion-title>TOLK</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+    <h1> Bienvenue chez TOLK! </h1>
+    <div id="champs">
+      <ion-item>
+        <ion-label>Quel est votre prénom ? </ion-label><br/><br/>
+        <ion-input type="text" id="prenom" [(ngModel)]="prenom" ></ion-input>
+      </ion-item><br/>
+      <ion-item>
+        <ion-label>Quel est votre profession ? </ion-label><br/><br/>
+        <ion-input type="text" id="profession" [(ngModel)]="profession" ></ion-input>
+      </ion-item> <br/>
+    </div>
 
-	 <ion-item no-lines>
-        <ion-label stacked>Quelle est votre prénom ? </ion-label>
-        <ion-input type="text" formControlName="prenom"></ion-input>
-      </ion-item>
-  <br/>
-      <ion-label> Activez les notifications pour entrer en contact avec votre Agent TOLK </ion-label>
-  <button ion-button full round color="danger">Activer les notifications</button><br/>
+  <h3 id="milieu1"> Activez les notifications pour entrer en contact avec votre Agent TOLK </h3><br/>
+  <button id="milieu2" ion-button full round color="danger">Activer les notifications</button><br/>
   <!--Il faudrait un bouton switch comme sur IOS -->
+
+
+  <ion-footer>
+    <button ion-button full round color="danger">Valider</button><br/>
+  </ion-footer>
 
 
 </ion-content>
