@@ -54473,6 +54473,10 @@ page-bienvenue h1, page-bienvenue h2, page-bienvenue h3 {
   text-align: center;
 }
 
+page-demarrage {
+  font-family: BentonSans-Light;
+}
+
 page-friends {
   font-family: BentonSans-Light;
 }

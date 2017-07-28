@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 480:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__notes__ = __webpack_require__(73);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotesPageModule", function() { return NotesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__demarrage__ = __webpack_require__(482);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DemarragePageModule", function() { return DemarragePageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,26 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NotesPageModule = (function () {
-    function NotesPageModule() {
+var DemarragePageModule = (function () {
+    function DemarragePageModule() {
     }
-    return NotesPageModule;
+    return DemarragePageModule;
 }());
-NotesPageModule = __decorate([
+DemarragePageModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__notes__["a" /* NotesPage */],
+            __WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__notes__["a" /* NotesPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__notes__["a" /* NotesPage */]
+            __WEBPACK_IMPORTED_MODULE_2__demarrage__["a" /* DemarragePage */]
         ]
     })
-], NotesPageModule);
+], DemarragePageModule);
 
-//# sourceMappingURL=notes.module.js.map
+//# sourceMappingURL=demarrage.module.js.map
 
 /***/ })
 

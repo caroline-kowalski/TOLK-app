@@ -38,6 +38,8 @@ export class LoginPage {
    // Ils sont appelés directement depuis le balisage html via loginProvider.facebookLogin () et loginProvider.googleLogin ().
   login() {
     this.loginProvider.emailLogin(this.emailPasswordForm.value["email"], this.emailPasswordForm.value["password"]);
+    
+    
   }
 
   // Appelez loginProvider et enregistrez l'utilisateur avec un email et un mot de passe.
