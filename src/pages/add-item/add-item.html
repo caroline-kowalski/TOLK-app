@@ -10,20 +10,30 @@
 </ion-header>
  
 <ion-content>
+<ion-card>
   <ion-list>
  
     <ion-item>
-      <ion-label floating>Titre</ion-label>
-      <ion-input type="text" [(ngModel)]="title"></ion-input>
+      <ion-input type="text" id="titre" [(ngModel)]="title" placeholder="Titre" ></ion-input>
     </ion-item>
  
     <ion-item>
-      <ion-label floating>Description</ion-label>
-      <ion-input type="text" [(ngModel)]="description"></ion-input>
-    </ion-item>
+      <ion-datetime displayFormat="MMM DD, YYYY HH:mm"placeholder="Date du rendez-vous" [(ngModel)]="date"></ion-datetime>
+      </ion-item>
  
   </ion-list>
  
   <button full ion-button color="danger" (click)="saveItem()">Sauvegarder</button> 
+</ion-card>
+   <ion-list>
+    <ion-item-sliding *ngFor="let item of notes | async">
+      <ion-item>
+        {{ item.$value }}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="danger" icon-only (click)="removeItem(item.$key)"><ion-icon name="trash"></ion-icon></button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
  
 </ion-content>

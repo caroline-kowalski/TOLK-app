@@ -45,6 +45,11 @@ export class DataProvider {
     return this.angularfire.object('/requests/' + userId);
   }
 
+  getNotes(userId)
+  {
+    return this.angularfire.object('/notes' + userId);
+  }
+
   // Get friend requests given the userId.
   getFriendRequests(userId) {
     return this.angularfire.list('/requests', {

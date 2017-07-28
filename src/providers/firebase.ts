@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 import { LoadingProvider } from './loading';
 import { AlertProvider } from './alert';
 import { DataProvider } from './data';
@@ -11,12 +11,25 @@ import 'rxjs/add/operator/take';
 export class FirebaseProvider {
   // Firebase Provider
   // This is the provider class for most of the Firebase updates in the app.
-
-  constructor(public angularfire: AngularFireDatabase, public loadingProvider: LoadingProvider, public alertProvider: AlertProvider, public dataProvider: DataProvider) {
+ 
+ constructor(public afd: AngularFireDatabase, public angularfire: AngularFireDatabase, public loadingProvider: LoadingProvider, public alertProvider: AlertProvider, public dataProvider: DataProvider) {
     console.log("Initializing Firebase Provider");
   }
 
-  // Send friend request to userId.
+   getNotes() {
+    return this.afd.list('/accounts/' + firebase.auth().currentUser.uid + '/notes/');
+  }
+ 
+  addItem(name) {
+    this.afd.list('/accounts/' + firebase.auth().currentUser.uid + '/notes/').push(name);
+  }
+ 
+  removeItem(id) {
+    this.afd.list('/accounts/' + firebase.auth().currentUser.uid + '/notes/').remove(id);
+  }
+
+
+  // Send friend request to
   sendFriendRequest(userId) {
     let loggedInUserId = firebase.auth().currentUser.uid;
     this.loadingProvider.show();

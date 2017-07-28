@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, ModalController } from 'ionic-angular';
+import { IonicPage, NavController, ModalController, ViewController, App} from 'ionic-angular';
 import { AddItemPage } from '../add-item/add-item'
 import { ItemDetailPage } from '../item-detail/item-detail';
+
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+ import { FirebaseProvider } from './../../providers/firebase';
 /**
  * Generated class for the NotesPage page.
  *
@@ -15,35 +18,50 @@ import { ItemDetailPage } from '../item-detail/item-detail';
 })
 export class NotesPage {
 
-	public items = [];
-
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
+  notes: FirebaseListObservable<any[]>;
+  title = '';
+  date;
+  constructor( public app: App, public firebaseProvider: FirebaseProvider, public afd: AngularFireDatabase, public navCtrl: NavController, public view: ViewController) {
+   this.notes = this.firebaseProvider.getNotes();
   }
 
   ionViewDidLoad() {
-    //console.log('ionViewDidLoad NotesPage');
+    //console.log('ionViewDidLoad AddItemPage');
   }
 
-  addItem(){
 
-	let addModal = this.modalCtrl.create(AddItemPage);
- 
-    addModal.onDidDismiss((item) => {
- 
-          if(item){
-            this.saveItem(item);
-          }
- 
-    });
- 
-    addModal.present();
+ getNotes() {
+    return this.afd.object('/notes/');
   }
-	saveItem(item){
-	    this.items.push(item);
-	  }
+  saveItem(){
+ 
 
-	viewItem(item){
- 	 this.navCtrl.push(ItemDetailPage, {
+   this.firebaseProvider.addItem(this.title);
+   this.firebaseProvider.addItem(this.date);
+
+    let newItem = {
+      title: this.title,
+      date: this.date
+    };
+ 
+    this.view.dismiss(newItem);
+
+    this.app.getRootNav().push(NotesPage);
+ 
+  }
+
+
+  removeItem(id) {
+    this.firebaseProvider.removeItem(id);
+  }
+
+  addItem()
+  {
+  }
+  //
+
+  viewItem(item){
+    this.navCtrl.push(ItemDetailPage, {
     item: item
   });
 }

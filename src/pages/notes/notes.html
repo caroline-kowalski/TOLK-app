@@ -1,17 +1,44 @@
 
+
 <ion-header>
   <ion-navbar>
   <img id="logo" src="assets/images/logoblanc.png"/>
-    <ion-title>Mes notes</ion-title> 
-
-    <ion-buttons end>
-      <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle"></ion-icon></button>
-    </ion-buttons>
-  </ion-navbar>
+    <ion-title>Plan d'action</ion-title> 
+ </ion-navbar> 
 </ion-header>
- 
+
 <ion-content>
+
   <ion-list>
-    <ion-item *ngFor="let item of items" tabIcon="ios-information"  (click)="viewItem(item)">{{item.title}}</ion-item>
+    <ion-item *ngFor="let item of items" tabIcon="ios-information"  (click)="viewItem(item)">{{item.$value}}</ion-item>
   </ion-list>
+
+ <ion-list>
+    <ion-item-sliding *ngFor="let item of notes | async">
+      <ion-item>
+    <img id="notes" src="assets/images/dossier.jpg"/> 
+        {{ item.$value }}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="danger" icon-only (click)="addItem()"><ion-icon name="add"></ion-icon></button>
+        <button ion-button color="danger" icon-only (click)="removeItem(item.$key)"><ion-icon name="trash"></ion-icon></button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+ 
+<ion-footer>
+  <ion-item class="bottom_bar">
+  <ion-row>
+    <ion-col col-9>
+      <ion-item>
+        <ion-input type="text" id="titre" [(ngModel)]="title" ></ion-input>
+      </ion-item>
+    </ion-col>  
+   <ion-col col-3>
+     <button ion-button round color="danger" (click)="saveItem()">+</button> 
+    </ion-col>
+  </ion-row>
+</ion-item>
+</ion-footer>
+
 </ion-content>

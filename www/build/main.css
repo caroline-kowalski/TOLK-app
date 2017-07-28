@@ -54426,6 +54426,10 @@ page-add-item {
   font-family: BentonSans-Light;
 }
 
+page-add-item #titre {
+  margin-left: 3%;
+}
+
 page-add-members {
   font-family: BentonSans-Light;
 }
@@ -54611,6 +54615,10 @@ page-item-detail {
   font-family: BentonSans-Light;
 }
 
+page-item-detail h2 {
+  margin-left: 5%;
+}
+
 page-login {
   font-family: BentonSans-Light;
 }
@@ -54742,6 +54750,12 @@ page-notes {
 page-notes #logo {
   float: left;
   width: 50px;
+}
+
+page-notes #notes {
+  width: 10%;
+  height: 10%;
+  margin-right: 5%;
 }
 
 page-requests {
