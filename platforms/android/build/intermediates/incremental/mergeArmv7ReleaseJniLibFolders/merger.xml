@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\acer\Music\TOLK-master\platforms\android\libs"/></dataSet><dataSet config="armv7"><source path="C:\Users\acer\Music\TOLK-master\platforms\android\src\armv7\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\acer\Music\TOLK-master\platforms\android\src\release\jniLibs"/></dataSet><dataSet config="armv7Release"><source path="C:\Users\acer\Music\TOLK-master\platforms\android\src\armv7Release\jniLibs"/></dataSet></merger>

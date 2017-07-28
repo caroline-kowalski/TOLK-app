@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "953415908656",
+    "firebase_url": "https://tolk-743bf.firebaseio.com",
+    "project_id": "tolk-743bf",
+    "storage_bucket": "tolk-743bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953415908656:android:cdc4248886dabc63",
+        "android_client_info": {
+          "package_name": "com.TolkApp.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953415908656-hnliligr5vgr1dcvhfm0chtdth1d82uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9B0WMbA7OhGpGDAVhRdYKhh_xpQUPC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
